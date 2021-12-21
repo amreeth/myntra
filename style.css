@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+   display: flex;
+  
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    margin-top: 35px;
+}
+.navbarlist{
+    width: 50%;
+    height:80px;
+    background: rgb(248, 239, 239);
+}
+.navbarsearch{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    background: rgb(248, 239, 239);
+}
+.navbarlist img{
+    width: 70px;
+    height: 40px;
+    margin-top: -10px;
+}
+.navbarlist a{
+    text-decoration: none;
+}
+.navbarlist li{
+    font-family: cursive;
+}
+.input{
+    width: 70%;
+    height: 80px;
+    background: rgb(248, 239, 239);
+}
+.img{
+    width:20%;
+    height: 80px;
+}
+.search{
+    margin-left: 10px;
+    margin-top: -64px;
+}
+.search input{
+    border: none;
+    width: 350px;
+    height: 40px;
+    background: rgb(248, 239, 239);
+    margin-left: 50px;
+}
+.img img{
+    width: 20px;
+    height: 20px;
+    margin-top: 29px;
+    margin-left: 40px;
+}
+.bag{
+    width: 30%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(248, 239, 239);
+}
+.bag img{
+    width: 30px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.invite{
+   width: 100%;
+   height: 57px;
+    display: flex;
+   background: rgb(236, 236, 245); 
+}
+.paisa{
+    width: 35%;
+}
+.paisa img{
+    width: 60px;
+    height: 60px;
+    margin-left: 400px;
+}
+.myncash{
+    width: 30%;
+    font-family: cursive;
+}
+.button{
+    margin-top: 15px;
+    margin-left: -5px;
+    
+}
+.btn{
+    color: red;
+    width: 120px;
+    height: 26px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid;
+    border-color: black;
+    cursor: pointer;
+    font-family: cursive;
+}
+.background{
+    width: 100%;
+    margin-top: 4px;
+    height: 66vh;
+    display: flex;
+    background: rgb(247, 233, 233);
+}
+.leftback{
+    width: 20%;
+    margin-top: 4px;
+
+}
+.leftback img{
+    margin-top: -4px;
+    height: 22vh;
+}
+.center{
+    width: 45%;
+    margin-left: 100px;
+}
+.top{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+}
+.top img{
+    width: 50%;
+}
+.down{
+    height: 33vh;
+    width: 100%;
+    display: flex;
+}
+.down img{
+    width: 50%;
+}
+.rightback{
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.rightback img{
+    margin-top: -4px;
+    height: 22vh;
+}
+.bank-Ad{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.icic{
+   width: 30%;
+}
+.paytm{
+    width: 30%;
+}
+.axis{
+    width: 30%;
+}
+.bank-Ad img{
+    width: 405px;
+}
+.offer{
+    margin-top: 35px;
+    width: 100%;
+}
+.offer img{
+    width: 100%;
+}
+.winter{
+    margin-top: 10px;
+}
+.winter img{
+    width: 100%;
+}
+.winrow1{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.winrow2{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.unblv{
+    margin-top: 10px;
+}
+.unblv img{
+    width: 100%;
+}
+.unblvrow1{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unblvrow2{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.mostloved{
+    margin-top: 10px;
+}
+.mostloved img{
+    width: 100%;
+}
+.mostrow1{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height:350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mostrow2{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.gadget{
+    margin-top: 10px;
+}
+.gadget img{
+    width: 100%;
+}
+.gadgetrow1{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.category{
+    margin-top: 10px;
+}
+.category img{
+    width: 100%;
+}
+.categoryrow1{
+    width: 100%;
+    display: flex;
+    height:290px;
+}
+.categoryrow2{
+    width: 100%;
+    display: flex;
+    height:290px;
+    
+}
+.categoryrow3{
+    width: 100%;
+    display: flex;
+    height:290px;
+    
+}
+.categoryrow4{
+    width: 100%;
+    display: flex;
+    height: 290px;
+}
+.footer{
+    width: 100%;
+    height:55vh;
+    display: flex;
+    margin-top: 10px;
+    background: rgb(223, 230, 233);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.footer1{
+    width: 20%;
+}
+.shopping{
+    padding-top: 30px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.shopping ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.shopping p, .links p, .mobile p{
+    font-family: cursive;
+}
+.footer2{
+    width: 20%;
+}
+.links{
+    padding-top: 30px;
+    padding-left: 40px;
+    line-height: 23px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer3{
+    width: 30%;
+}
+.mobile{
+    padding-top: 30px;
+}
+.google{
+    display: flex;
+    margin-top: 40px;
+}
+.google img{
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+.footer4{
+    width: 20%;
+}
+.og{
+    margin-top: 40px;
+    display: flex;
+}
+.return{
+    margin-top: 30px;
+    display: flex;
+}
+.og img, .return img{
+    width: 50px;
+    height: 40px;
+}
